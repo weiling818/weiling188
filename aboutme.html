@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我</title>
+    <link rel="shortcut icon" href="img/icon3.jpg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(240, 249, 255);
+        }
+
+        .button-all {
+            text-align: center;
+        }
+
+        .button {
+            width: 200px;
+            margin: 20px 15px 20px;
+            padding: 15px 30px;
+            background-color: rgb(210, 220, 255);
+            color: rgb(96, 72, 91);
+            text-decoration: none;
+            /*不要底線*/
+            border-radius: 40px;
+            /*圓角*/
+            font-size: 20px;
+        }
+
+        .button:hover {
+            background-color: rgb(223, 209, 211);
+            color: rgb(146, 144, 78);
+        }
+
+        .fixed-img {
+            width: 100%;
+            background-position: top center;
+            background-size: 100% auto;
+            height: 100%;
+            height: 300px;
+        }
+
+        .biga {
+            display: flex;
+            justify-content: center;
+            /*水平置中*/
+            margin: 0 auto;
+            gap: 50px;
+            padding: 10px;
+        }
+
+        .me {
+            margin-top: 40px;
+            margin-left: 150px;
+            padding: 30px;
+            background-color: rgb(155, 171, 207);
+            border-radius: 10px;
+            float: left;
+            width: 320px;
+            height: 530px;
+        }
+
+        .a {
+            background-color: rgb(191, 207, 211);
+            color: rgb(255, 255, 255);
+            width: 850px;
+            margin-top: 40px;
+            margin-right: 150px;
+            margin-bottom: 200px;
+            padding: 20px 30px 50px;
+            border-radius: 10px;
+            float: right;
+        }
+
+        .me123 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .me123 img {
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1);
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="img/me1.jpg" alt="首圖" class="fixed-img">
+    <div class="button-all">
+        <a href="index.html" class="button">HOME</a>
+        <a href="school.html" class="button">SCHOOL</a>
+        <a href="license.html" class="button">LICENSE</a>
+        <a href="course.html" class="button">COURSE</a>
+    </div>
+    <div class="biga">
+        <div class="me">
+            <img src="img/mephoto.jpg" alt="" width="250px"
+                style="border-radius: 50%;border: 5px solid rgba(255, 255, 255, 0.59);display: block;margin: 0 auto;">
+            <h1 style="display: block;text-align: center;margin-top: 10px;margin-bottom: 5px;">董韋伶</h1>
+            <p style="color: rgb(64, 131, 255);">基本信息</p>
+            <p>學校：亞東科技大學-資訊管理系</p>
+            <p>班級：資管1A</p>
+            <p>生日：民國95年08月18日</p>
+            <p style="color: rgb(64, 131, 255);">聯絡方式</p>
+            <p>Email：<a href="mailto:113111152@aeust.mail.edu.tw"
+                    style="color: #3754aa;">113111152@aeust.mail.edu.tw</a>
+            </p>
+            <p></p>
+        </div>
+        <div class="a">
+            <hr
+                style="border: none;height: 3px;background-color: rgb(255, 255, 255);margin: 30px auto;border-radius: 20px;">
+            <h1 style="text-align: center;">照片牆</h1>
+            <div class="me123">
+                <img src="img/me2.jpg" alt="">
+                <img src="img/me3.jpg" alt="">
+                <img src="img/me4.jpg" alt="">
+                <img src="img/me5.jpg" alt="">
+                <img src="img/me6.jpg" alt="">
+                <img src="img/me7.jpg" alt="">
+                <img src="img/me8.jpg" alt="">
+                <img src="img/me9.jpg" alt="">
+                <img src="img/me10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

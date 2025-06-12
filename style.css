@@ -1,0 +1,67 @@
+body {
+    background-image: url(img/img4.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: "Iansui", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /*字體*/
+    text-align: center;
+    /*文字置中*/
+    padding-top: 50px;
+}
+
+.aa {
+    background-color: aliceblue;
+    width: 600px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.46);
+}
+
+.bb {
+    background-color: rgb(191, 210, 237);
+    width: 580px auto;
+    height: 400px;
+    margin: 10px 10px;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+
+.photo {
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.name {
+    color: rgb(32, 71, 106);
+    font-size: 25px;
+}
+
+.button {
+    display: block;
+    /*獨立一行*/
+    width: 180px;
+    margin: 25px auto 25px;
+    margin-right: 20px;
+    padding: 15px 15px;
+    background-color: rgb(243, 250, 255);
+    color: rgb(32, 47, 75);
+    text-decoration: none;
+    /*不要底線*/
+    text-align: left;
+    border-radius: 10px;
+    /*圓角*/
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(117, 130, 185);
+    color: rgb(252, 247, 228);
+}
+
+.button1 {
+    margin-top: 20px;
+}
